@@ -8,5 +8,5 @@ We train three different Faster-RCNNs on VOC dataset.
 
 The implementation of 1,2 is based on our *project 2-2*, see https://github.com/pitter-patterz/pj2-2.
 
-We have referrence for
+We have referrence for https://github.com/chenyuntc/simple-faster-rcnn-pytorch.
 
