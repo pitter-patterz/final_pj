@@ -11,3 +11,5 @@ To test on your own video, first download the .pth model file to \checkpoints. P
 ```python
 python predict.py --input test_image  --dataset cityscapes --model deeplabv3plus_mobilenet --ckpt checkpoints/mydeeplab.pth --save_val_results_to test_results
 ```
+
+The folder \demo shows some of the input and output images.
