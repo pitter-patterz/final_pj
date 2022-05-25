@@ -8,5 +8,7 @@ https://pan.baidu.com/s/1FU5zdLE70PIvWHe8QF2Gyw?pwd=sjwl (pwd:sjwl)
 
 To test on your own video, first download the .pth model file to \checkpoints. Put the test images in \test_image, and type 
 
-*python predict.py --input test_image  --dataset cityscapes --model deeplabv3plus_mobilenet --ckpt checkpoints/mydeeplab.pth --save_val_results_to test_results*
+# python
+
+python predict.py --input test_image  --dataset cityscapes --model deeplabv3plus_mobilenet --ckpt checkpoints/mydeeplab.pth --save_val_results_to test_results
 
