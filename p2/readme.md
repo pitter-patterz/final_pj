@@ -4,7 +4,7 @@ We train three different Faster-RCNNs on VOC dataset, as listed below.
 
 1> Initialize the backbone net (VGG16) with random parameters.
 
-2> Use the VGG16 pretrained on ImageNet (from torchvision.models).
+2> Use the VGG16 pretrained on ImageNet (from *torchvision.models*).
 
 3> Use the mask-RCNN trained on coco.
 
