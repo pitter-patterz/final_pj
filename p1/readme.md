@@ -4,7 +4,7 @@ We use *DeeplabV3 Plus* to do semantic segementation on a video from a driving r
 We first transform the downloaded video to images by frames, which are inputs of the net. Then the output images are collected and formed as an intact video via PR.
 
 The video after segementation (together with the original video and the model) can be downloaded from 
-https://pan.baidu.com/s/1FU5zdLE70PIvWHe8QF2Gyw?pwd=sjwl (pwd:sjwl)
+https://pan.baidu.com/s/1ry7nWFbDlZJsGRP0xhusiw?pwd=sjwl (pwd:sjwl)
 
 To test on your own video, first download the .pth model file to \checkpoints. Put the test images in \test_image, and type 
 
