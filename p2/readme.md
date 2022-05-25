@@ -1,6 +1,6 @@
 # Introduction
 
-We train three different Faster-RCNNs on VOC dataset.
+We train three different Faster-RCNNs on VOC dataset, as listed below.
 
 1> Initialize the backbone net (VGG16) with random parameters.
 
