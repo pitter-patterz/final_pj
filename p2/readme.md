@@ -21,4 +21,8 @@ net_ = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True, pretr
 net.backbone = nn.Sequential(net_.backbone)
 ```
 
+We mainly refer to https://javajgs.com/archives/45847. The model file can be downloaded from
+
+# Usage
+
 
