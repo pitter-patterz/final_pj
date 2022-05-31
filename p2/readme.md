@@ -8,11 +8,17 @@ We train a Faster-RCNN on VOC2007 dataset, with Resnet-50 as its backbone. We co
 The module torchvision.models is used to download models. The commands below are corresponding to the three approaches, respectively.
 
 ```python
-model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=False, pretrained_backbone=False) 
+net = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=False, pretrained_backbone=False) 
 ```
 
 ```python
-model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=False, pretrained_backbone=True) 
+net = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=False, pretrained_backbone=True) 
+```
+
+```python
+net = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=False, pretrained_backbone=False) 
+net_ = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True, pretrained_backbone=True)
+net.backbone = nn.Sequential(net_.backbone)
 ```
 
 
