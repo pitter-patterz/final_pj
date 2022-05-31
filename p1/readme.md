@@ -5,9 +5,7 @@ https://github.com/VainF/DeepLabV3Plus-Pytorch
 
 https://www.bilibili.com/video/BV1Qz4y1R7Kv?spm_id_from=333.337.search-card.all.click
 
-We first transform the downloaded video to images by frames, which are inputs of the net. Then the output images are collected and formed as an intact video via PR.
-
-The video after segementation (together with the original video and the model) can be downloaded from
+We first transform the downloaded video to images by frames, which are inputs of the net. Then the output images are collected and formed as an intact video via PR. The video after segementation (together with the original video and the model) can be downloaded from
 
 https://pan.baidu.com/s/1ry7nWFbDlZJsGRP0xhusiw?pwd=sjwl (pwd:sjwl)
 
