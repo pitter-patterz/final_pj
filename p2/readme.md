@@ -32,6 +32,15 @@ Run the command below to train your Faster-RCNN. Note that only one of 'random',
 python train.py random/imagenet/coco
 ```
 
+To do object detection on your own images, run
+
+
+```python
+python detect.py
+```
+
+remember to modify the path of .pth and .jpg files in the code. See our demos (by pretrain_coco.pth) in the folder user_detect.
+
 
 
 
