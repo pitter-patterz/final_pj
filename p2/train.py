@@ -134,3 +134,5 @@ for epoch in range(total_epochs):
     print('')
 
 print("That's it!")
+
+# torch.save(model,'net.pth')
