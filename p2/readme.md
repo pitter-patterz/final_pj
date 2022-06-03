@@ -26,5 +26,9 @@ We mainly refer to https://javajgs.com/archives/45847. The model file can be dow
 https://pan.baidu.com/s/1-OF-MkzxYYBQTXHPpctmdw?pwd=sjwl (pwd:sjwl).
 
 # Usage
+To train the Faster-RCNN
 
+```python
+python train.py random/imagenet/coco
+```
 
