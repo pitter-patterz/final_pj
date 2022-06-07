@@ -129,4 +129,23 @@ def compute_map(model,data_loader,device):
     
     print('\n\nMAP on test images:',test_map/test_num)
 
+def compute_map_class(model,data_loader,device):
+    print('\n Begin test...')
+    model.eval()
+
+    cpu_device = torch.device('cpu')
+    metric = MeanAveragePrecision(class_metrics=True)
+    
+    with torch.no_grad():
+      for k,(images,targets) in tqdm(enumerate(data_loader)):
+        images = list(image.to(device) for image in images)
+        targets = [{k: v.to(cpu_device) for k, v in t.items()} for t in targets]
+        
+        out = model(images)
+        out = [{k: v.to(cpu_device) for k, v in t.items()} for t in out]
+        metric.update(out,targets)
+    
+    A = metric.compute()
+    print('\n\nMAP on test images:\n\n',A)
+
 
