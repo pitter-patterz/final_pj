@@ -26,11 +26,20 @@ We mainly refer to https://javajgs.com/archives/45847. The model file can be dow
 https://pan.baidu.com/s/1-OF-MkzxYYBQTXHPpctmdw?pwd=sjwl (pwd:sjwl).
 
 # Usage
-Run the command below to train your Faster-RCNN. Note that only one of 'random', 'iamgenet' and 'coco' is selected.
+Run the command below to train your Faster-RCNN. Note that only one of 'random', 'imagenet' and 'coco' is selected.
 
 ```python
 python train.py random/imagenet/coco
 ```
+
+To test your trained Faster-RCNN
+
+```python
+python test.py
+```python
+
+The default number of test images is 3,000.
+
 
 To do object detection on your own images, run
 
