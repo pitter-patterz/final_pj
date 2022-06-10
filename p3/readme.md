@@ -6,7 +6,7 @@ In this part, we train a VIT on CIFAR-100 dataset to do image classfication. The
 
 + Transform the type of data via *change_format.py*.
 
-+ Download the pretrained VIT weights.
++ Run train.py to train your VIT. Remember to set the argument --data-path and --weights (if you have downloaded pretrained weights).
 
-+ 
++ Run predict.py to test the model on images from --img_path.
 
